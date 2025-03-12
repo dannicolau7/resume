@@ -1,88 +1,108 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 20px; /* Added padding */
+    padding: 20px;
     background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6; /* Adjusted line height */
-    font-size: 18px; /* Adjusted font size */
+    line-height: 1.6;
+    font-size: 18px;
 }
+
 header {
     background: #35424a;
     color: #ffffff;
     padding: 10px 0;
     border-bottom: #e8491d 3px solid;
 }
+
 header h1 {
     text-align: center;
     margin: 0;
 }
+
 nav ul {
     padding: 0;
     list-style: none;
     text-align: center;
     margin: 0;
 }
+
 nav li {
     display: inline;
     padding: 0 20px;
 }
+
 nav a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
+
 nav a:hover, .contact a:hover {
     color: #0056b3;
     text-decoration: underline;
 }
+
 main {
     padding: 20px;
     background: #ffffff;
     margin: 20px auto;
     width: 80%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
+
 h1, h2 {
     color: #35424a;
 }
+
 .header {
     text-align: center;
 }
+
 .header h1 {
     margin: 5px 0;
 }
+
 .contact {
     text-align: center;
     color: #555;
 }
+
 .contact a {
     color: #007BFF;
     text-decoration: none;
 }
+
 .section {
     margin: 20px 0;
 }
+
 .section h2 {
     border-bottom: 2px solid #007BFF;
     padding-bottom: 5px;
 }
+
 .job {
     margin-bottom: 15px;
 }
+
 .job h3 {
     margin: 5px 0;
     color: #007BFF;
 }
+
 .job p {
     margin: 5px 0;
     color: #666;
 }
+
 .skills ul {
     list-style: none;
     padding: 0;
 }
+
 .skills ul li {
     display: inline-block;
     background: #007BFF;
@@ -90,4 +110,15 @@ h1, h2 {
     padding: 5px 10px;
     margin: 5px;
     border-radius: 5px;
+}
+
+/* Add styles for company links */
+.company-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.company-link:hover {
+    text-decoration: underline;
 }
